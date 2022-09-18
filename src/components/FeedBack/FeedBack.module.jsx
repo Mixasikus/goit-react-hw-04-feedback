@@ -1,13 +1,11 @@
 import styled from 'styled-components';
 
 //  FeedBackOptions
-export const ButtonList = styled.ul`
+export const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   list-style: none;
 `;
-
-export const ButtonListItem = styled.li``;
 
 export const Button = styled.button`
   padding: 3px 15px;
